@@ -1,11 +1,11 @@
-let a=9
-let flag=false
-for(let i=1;i<=a;i++){
-    if(a%i!=0){
-    flag=true
+let a=7
+let flag=true
+for(let i=2;i<a;i++){
+    if(a%i==0){
+    flag=false
     }
 }
-console.log(flag)
+
 if(flag==false){
     console.log("not prime");
 }
