@@ -1,4 +1,4 @@
-let a=7
+let a=9
 let flag=true
 for(let i=2;i<a;i++){
     if(a%i==0){
